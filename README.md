@@ -1,6 +1,6 @@
 # Dice Job Application Automation
 
-![Dice Logo](./src/dice_logo.png)
+![Dice Logo](./src/img/dice_logo.png)
 
 
 An automated script that helps streamline the job application process on Dice.com using Selenium WebDriver. The script handles login, job searching, filtering, and automated application submission.
