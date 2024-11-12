@@ -106,13 +106,19 @@ In `config.py`, you can customize:
 4. Push to your branch
 5. Create a Pull Request
 
-## Special Thanks 🙏
+## Special Thanks 
 
-[![hbuddana](https://avatars.githubusercontent.com/hbuddana?s=50)](https://github.com/hbuddana)
-[![Deeraj7](https://avatars.githubusercontent.com/Deeraj7?s=50)](https://github.com/Deeraj7)
+[![Contributors](https://img.shields.io/github/contributors/hbuddana/dice-job-automation)](https://github.com/hbuddana/dice-job-automation/graphs/contributors)
 
-> **Contributors**  
-> Thank you to all the amazing contributors! 🎉
+<a href="https://github.com/hbuddana">
+  <img src="https://avatars.githubusercontent.com/hbuddana?s=50" width="50" height="50" style="border-radius: 50%;" alt="hbuddana"/>
+</a>
+<a href="https://github.com/Deeraj7">
+  <img src="https://avatars.githubusercontent.com/Deeraj7?s=50" width="50" height="50" style="border-radius: 50%;" alt="Deeraj7"/>
+</a>
+
+
+
 
 
 ## 📄 License
