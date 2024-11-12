@@ -106,10 +106,14 @@ In `config.py`, you can customize:
 4. Push to your branch
 5. Create a Pull Request
 
-## 👥 Contributors
+## Special Thanks 🙏
 
-- [hbuddana](https://github.com/hbuddana) 👏
-- [Deeraj7](https://github.com/Deeraj7) 👏
+[![hbuddana](https://avatars.githubusercontent.com/hbuddana?s=50)](https://github.com/hbuddana)
+[![Deeraj7](https://avatars.githubusercontent.com/Deeraj7?s=50)](https://github.com/Deeraj7)
+
+> **Contributors**  
+> Thank you to all the amazing contributors! 🎉
+
 
 ## 📄 License
 
