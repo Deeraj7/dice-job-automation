@@ -1,23 +1,28 @@
-# Dice Job Application Automation
+
+# Dice Job Application Automation 🚀
 
 ![Dice Logo](./src/img/dice_logo.png)
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Selenium](https://img.shields.io/badge/Selenium-Automation-green.svg?logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An automated script that helps streamline the job application process on Dice.com using Selenium WebDriver. The script handles login, job searching, filtering, and automated application submission.
 
-## Features
+## ✨ Features
 
-- Automated login to Dice.com
-- Custom keyword job search
-- Automatic filtering for:
-  - Today's job postings
-  - Third-party listings
-- Automated "Easy Apply" process
-- Smart handling of already applied jobs
-- Shadow DOM interaction for modern web elements
-- Detailed logging of the application process
+- ✅ Automated login to Dice.com
+- 🔍 Custom keyword job search
+- 🎯 Automatic filtering for:
+  - 📅 Today's job postings
+  - ⚙️ Third-party listings
+- ⚡ Automated "Easy Apply" process
+- 🔄 Smart handling of already applied jobs
+- 💡 Shadow DOM interaction for modern web elements
+- 📊 Detailed logging of the application process
 
-## Project Structure
+## 📂 Project Structure
+
 ```
 dice-job-automation/
 ├── README.md
@@ -37,63 +42,63 @@ dice-job-automation/
         └── webdriver_setup.py
 ```
 
-## Requirements
+## 📋 Requirements
 
 - Python 3.x
 - Chrome Browser
 - ChromeDriver matching your Chrome version
 - Required Python packages (see requirements.txt)
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/dice-job-automation.git
-cd dice-job-automation
-```
+   ```bash
+   git clone https://github.com/hbuddana/dice-job-automation.git
+   cd dice-job-automation
+   ```
 
 2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Create a config.py file with your credentials:
-```python
-CREDENTIALS = {
-    "username": "your_email@example.com",
-    "password": "your_password"
-}
+   ```python
+   CREDENTIALS = {
+       "username": "your_email@example.com",
+       "password": "your_password"
+   }
 
-SEARCH_SETTINGS = {
-    "keyword": "your search keyword",  # e.g., "Data Engineer"
-    "max_applications": 10
-}
-```
+   SEARCH_SETTINGS = {
+       "keyword": "your search keyword",  # e.g., "Data Engineer"
+       "max_applications": 10
+   }
+   ```
 
-## Usage
+## 🚀 Usage
 
-1. Update config.py with your Dice.com credentials and search preferences
+1. Update `config.py` with your Dice.com credentials and search preferences.
 2. Run the script:
-```bash
-python main.py
-```
+   ```bash
+   python main.py
+   ```
 
-## Configuration Options
+## 🔧 Configuration Options
 
-In config.py, you can customize:
+In `config.py`, you can customize:
 - Login credentials
 - Search keywords
 - Maximum number of applications
 - Other search parameters
 
-## Important Notes
+## ⚠️ Important Notes
 
-- Keep your config.py file private and never commit it to Git
+- Keep your `config.py` file private and never commit it to Git
 - Review Dice.com's terms of service regarding automation
 - The script includes delays to mimic human behavior
 - Verify all applications manually in your Dice account
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a new branch for your feature
@@ -101,14 +106,15 @@ In config.py, you can customize:
 4. Push to your branch
 5. Create a Pull Request
 
-## Contributors
-- [Deeraj] (https://github.com/Deeraj7)
-- [hbuddana](https://github.com/hbuddana)
+## 👥 Contributors
 
-## License
+- [hbuddana](https://github.com/hbuddana) 👏
+- [Deeraj7](https://github.com/Deeraj7) 👏
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
 
-## Disclaimer
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⚠️ Disclaimer
 
 This tool is for educational purposes only. Use responsibly and in accordance with Dice.com's terms of service.
