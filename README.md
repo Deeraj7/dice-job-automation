@@ -101,6 +101,10 @@ In config.py, you can customize:
 4. Push to your branch
 5. Create a Pull Request
 
+## Contributors
+- [Deeraj] (https://github.com/Deeraj7)
+- [hbuddana](https://github.com/hbuddana)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
