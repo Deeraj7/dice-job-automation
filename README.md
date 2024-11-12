@@ -1,25 +1,50 @@
 
-# Dice Job Application Automation 🚀
+<a name="top"></a>
+<div align="center">
+<img src="./src/img/dice_logo.png" alt="Dice Logo" style="border-radius: 15px;">
 
-![Dice Logo](./src/img/dice_logo.png)
+# Dice Job Application Automation 🚀
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Selenium](https://img.shields.io/badge/Selenium-Automation-green.svg?logo=selenium&logoColor=white)](https://www.selenium.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./MIT%20License)
+[![Contributors](https://img.shields.io/github/contributors/Deeraj7/dice-job-automation)](https://github.com/Deeraj7/dice-job-automation)
 
-An automated script that helps streamline the job application process on Dice.com using Selenium WebDriver. The script handles login, job searching, filtering, and automated application submission.
+**Automate your job application process on Dice.com using Selenium WebDriver. Simplify and streamline your job search with one-click applications, intelligent filtering, and smart handling of applied jobs.**
+
+</div>
+
+---
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Configuration](#configuration)
+5. [Usage](#usage)
+6. [Troubleshooting](#troubleshooting)
+7. [Contributors](#contributors)
+8. [License](#license)
+9. [Disclaimer](#disclaimer)
+
+---
+
+## Introduction
+
+The **Dice Job Application Automation** tool is designed to make the job application process on Dice.com more efficient and less time-consuming. By automating repetitive tasks, it allows job seekers to focus on interview preparation and skill-building rather than filling out forms repeatedly. Built with Python and Selenium, this tool includes features such as automatic job searching, one-click application, and shadow DOM handling.
 
 ## ✨ Features
 
-- ✅ Automated login to Dice.com
-- 🔍 Custom keyword job search
-- 🎯 Automatic filtering for:
-  - 📅 Today's job postings
-  - ⚙️ Third-party listings
-- ⚡ Automated "Easy Apply" process
-- 🔄 Smart handling of already applied jobs
-- 💡 Shadow DOM interaction for modern web elements
-- 📊 Detailed logging of the application process
+- ✅ **Automated Login to Dice.com**
+- 🔍 **Customizable Job Search**: Allows searching with specific keywords and filters
+- 🎯 **Intelligent Filtering**: Only applies to relevant jobs (e.g., today's job postings, non-third-party listings)
+- ⚡ **"Easy Apply" Automation**: One-click application submission for jobs with Easy Apply
+- 🔄 **Smart Handling of Previously Applied Jobs**: Skips jobs that you've already applied to
+- 💡 **Shadow DOM Interaction**: Interacts with modern web elements, including those hidden in Shadow DOM
+- 📊 **Detailed Logging**: Keeps a log of the application process for easy tracking
+
+---
 
 ## 📂 Project Structure
 
@@ -42,27 +67,32 @@ dice-job-automation/
         └── webdriver_setup.py
 ```
 
+---
+
 ## 📋 Requirements
 
-- Python 3.x
-- Chrome Browser
-- ChromeDriver matching your Chrome version
-- Required Python packages (see requirements.txt)
+- **Python 3.x**
+- **Chrome Browser**
+- **ChromeDriver** matching your Chrome version
+- Required Python packages listed in `requirements.txt`
+
+---
 
 ## ⚙️ Installation
 
-1. Clone the repository:
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/hbuddana/dice-job-automation.git
+   git clone https://github.com/Deeraj7/dice-job-automation.git
    cd dice-job-automation
    ```
 
-2. Install required packages:
+2. **Install Required Packages**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Create a config.py file with your credentials:
+3. **Configure Credentials**
+   Create a `config.py` file with your Dice.com credentials:
    ```python
    CREDENTIALS = {
        "username": "your_email@example.com",
@@ -70,10 +100,12 @@ dice-job-automation/
    }
 
    SEARCH_SETTINGS = {
-       "keyword": "your search keyword",  # e.g., "Data Engineer"
+       "keyword": "Data Engineer",
        "max_applications": 10
    }
    ```
+
+---
 
 ## 🚀 Usage
 
@@ -83,30 +115,36 @@ dice-job-automation/
    python main.py
    ```
 
+---
+
 ## 🔧 Configuration Options
 
 In `config.py`, you can customize:
-- Login credentials
-- Search keywords
-- Maximum number of applications
-- Other search parameters
+- **Login Credentials**: Username and password for Dice.com.
+- **Search Keywords**: The keyword(s) to search for relevant job postings.
+- **Max Applications**: Maximum number of applications per run.
+- **Other Search Filters**: You can add filters based on other criteria to further refine job search.
 
-## ⚠️ Important Notes
+---
 
-- Keep your `config.py` file private and never commit it to Git
-- Review Dice.com's terms of service regarding automation
-- The script includes delays to mimic human behavior
-- Verify all applications manually in your Dice account
+## 🛠️ Troubleshooting
 
-## 🤝 Contributing
+1. **Login Issues**
+   - Double-check your credentials in `config.py`.
+   - Ensure your ChromeDriver version matches your installed Chrome browser version.
 
-1. Fork the repository
-2. Create a new branch for your feature
-3. Commit your changes
-4. Push to your branch
-5. Create a Pull Request
+2. **Application Process Stalls**
+   - If the bot fails to click "Easy Apply," ensure that the jobs being targeted have the Easy Apply option.
 
-## Special Thanks 
+3. **Shadow DOM Errors**
+   - Ensure the `shadow_dom_handler.py` script is functioning correctly. Some web elements on Dice might require specific handling.
+
+4. **Rate Limiting on Dice**
+   - Dice.com might limit requests if too many actions are performed quickly. The script includes delays to mimic human behavior, but further customization may be needed.
+
+---
+
+## 👥 Contributors
 
 [![Contributors](https://img.shields.io/github/contributors/Deeraj7/dice-job-automation)](https://github.com/Deeraj7/dice-job-automation)
 
@@ -117,16 +155,20 @@ In `config.py`, you can customize:
   <img src="https://avatars.githubusercontent.com/hbuddana?s=50" width="50" height="50" style="border-radius: 50%;" alt="Harsha"/>
 </a>
 
+> **Thank you to our amazing contributors! 🎉**
 
-
-
-
-
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](/MIT%20license) file for details.
+This project is licensed under the MIT License - see the [MIT License](./MIT%20License) file for details.
+
+---
 
 ## ⚠️ Disclaimer
 
 This tool is for educational purposes only. Use responsibly and in accordance with Dice.com's terms of service.
+
+---
+
+[Back to top 🚀](#top)
