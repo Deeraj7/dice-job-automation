@@ -108,14 +108,16 @@ In `config.py`, you can customize:
 
 ## Special Thanks 
 
-[![Contributors](https://img.shields.io/github/contributors/hbuddana/dice-job-automation)](https://github.com/hbuddana/dice-job-automation/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/Deeraj7/dice-job-automation)](https://github.com/Deeraj7/dice-job-automation)
 
-<a href="https://github.com/hbuddana">
-  <img src="https://avatars.githubusercontent.com/hbuddana?s=50" width="50" height="50" style="border-radius: 50%;" alt="hbuddana"/>
-</a>
 <a href="https://github.com/Deeraj7">
-  <img src="https://avatars.githubusercontent.com/Deeraj7?s=50" width="50" height="50" style="border-radius: 50%;" alt="Deeraj7"/>
+  <img src="https://avatars.githubusercontent.com/Deeraj7?s=50" width="50" height="50" style="border-radius: 50%;" alt="Deeraj7 (Owner)"/>
 </a>
+<a href="https://github.com/hbuddana">
+  <img src="https://avatars.githubusercontent.com/hbuddana?s=50" width="50" height="50" style="border-radius: 50%;" alt="Harsha"/>
+</a>
+
+
 
 
 
@@ -123,7 +125,7 @@ In `config.py`, you can customize:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/MIT%20license) file for details.
 
 ## ⚠️ Disclaimer
 
