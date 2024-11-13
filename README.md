@@ -92,7 +92,7 @@ dice-job-automation/
    ```
 
 3. **Configure Credentials**
-   Create a `config.py` file with your Dice.com credentials:
+   Create a `config.py` file with your Dice.com credentials, search settings, and resume path:
    ```python
    CREDENTIALS = {
        "username": "your_email@example.com",
@@ -102,6 +102,10 @@ dice-job-automation/
    SEARCH_SETTINGS = {
        "keyword": "Data Engineer",
        "max_applications": 10
+   }
+
+   RESUME_SETTINGS = {
+       "path": "/path/to/your/resume.pdf"  # Full path to your resume file
    }
    ```
 
@@ -123,6 +127,7 @@ In `config.py`, you can customize:
 - **Login Credentials**: Username and password for Dice.com.
 - **Search Keywords**: The keyword(s) to search for relevant job postings.
 - **Max Applications**: Maximum number of applications per run.
+- **Resume Path**: Specify the path to your resume file, which will be used in applications.
 - **Other Search Filters**: You can add filters based on other criteria to further refine job search.
 
 ---
